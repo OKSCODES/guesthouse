@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Umpohliew Guest House icon">
+  <rect width="512" height="512" rx="112" fill="#1F5F43"/>
+  <circle cx="394" cy="118" r="42" fill="#D4A95D"/>
+  <path d="M80 342c53-85 107-128 162-128 61 0 110 52 190 128H80z" fill="#F5EFE6" opacity=".92"/>
+  <path d="M80 372h352v50H80z" fill="#D4A95D"/>
+  <path d="M150 310V192l106-74 106 74v118" fill="none" stroke="#F5EFE6" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M222 310v-78h68v78" fill="#F5EFE6"/>
+</svg>

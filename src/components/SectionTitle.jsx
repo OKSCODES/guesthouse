@@ -1,0 +1,2 @@
+import { motion } from 'framer-motion';
+export default function SectionTitle({eyebrow,title,text}){return <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="mb-8 text-center"><p className="font-bold uppercase tracking-widest text-river">{eyebrow}</p><h2 className="mt-2 text-3xl md:text-5xl font-black text-slate-900 dark:text-white">{title}</h2>{text&&<p className="mx-auto mt-3 max-w-2xl text-slate-600 dark:text-slate-300">{text}</p>}</motion.div>}
