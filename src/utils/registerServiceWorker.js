@@ -2,7 +2,7 @@ function ensurePwaHeadTags() {
   if (!document.querySelector('link[rel="manifest"]')) {
     const manifest = document.createElement('link');
     manifest.rel = 'manifest';
-    manifest.href = '/manifest.webmanifest';
+    manifest.href = '/guesthouse/manifest.webmanifest';
     document.head.appendChild(manifest);
   }
 
@@ -30,8 +30,6 @@ export function registerServiceWorker() {
   if (import.meta.env.DEV) return;
 
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => {
-      // PWA registration is a progressive enhancement; app still works normally.
-    });
+    navigator.serviceWorker.register('/guesthouse/sw.js').catch(() => {});
   });
 }

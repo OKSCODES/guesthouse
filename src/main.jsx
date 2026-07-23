@@ -7,7 +7,7 @@ import { registerServiceWorker } from './utils/registerServiceWorker';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/guesthouse">
       <App />
     </BrowserRouter>
   </React.StrictMode>
