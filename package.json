@@ -1,12 +1,15 @@
-"homepage": "https://okscodes.github.io/guesthouse"
-
 {
+  "name": "umpohliew-guest-house",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://okscodes.github.io/guesthouse",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
@@ -16,17 +19,13 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
-    "react-router-dom": "^6.26.2",
-    "vite": "^5.4.0"
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13"
-  },
-  "name": "umpohliew-guest-house",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module"
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.0"
+  }
 }
