@@ -1,1 +1,0 @@
-import{r as o}from"./index-j3xA816D.js";function a({title:t,description:n}){o.useEffect(()=>{document.title=t;let e=document.querySelector('meta[name="description"]');e||(e=document.createElement("meta"),e.name="description",document.head.appendChild(e)),e.content=n},[t,n])}export{a as u};
