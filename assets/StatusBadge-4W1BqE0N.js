@@ -1,4 +1,4 @@
-import { j as jsxRuntimeExports } from "./index-DeB-K_98.js";
+import { j as jsxRuntimeExports } from "./index-DN0yzujq.js";
 const styles = {
   pending: "bg-[#FFF6DF] text-[#8A5A00] ring-[#E8C978] dark:bg-amber-500/15 dark:text-amber-300 dark:ring-amber-500/30",
   approved: "bg-emerald-50 text-[#1F5F43] ring-emerald-200 dark:bg-emerald-500/15 dark:text-emerald-300 dark:ring-emerald-500/30",

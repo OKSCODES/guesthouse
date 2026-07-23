@@ -2,8 +2,8 @@
   "name": "Umpohliew Guest House",
   "short_name": "Umpohliew",
   "description": "Premium nature stay and mobile booking for Umpohliew Guest House, Meghalaya.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/guesthouse/",
+  "scope": "/guesthouse/",
   "display": "standalone",
   "background_color": "#FAF9F6",
   "theme_color": "#1F5F43",
@@ -11,7 +11,7 @@
   "categories": ["travel", "lifestyle"],
   "icons": [
     {
-      "src": "/icons/icon.svg",
+      "src": "/guesthouse/icons/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

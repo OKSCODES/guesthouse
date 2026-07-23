@@ -1,4 +1,4 @@
-import { r as reactExports } from "./index-DeB-K_98.js";
+import { r as reactExports } from "./index-DN0yzujq.js";
 function useSeo({ title, description }) {
   reactExports.useEffect(() => {
     document.title = title;

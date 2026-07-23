@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/Home-DwrQN7yg.js","assets/ResponsiveMap-C6BXbu1s.js","assets/RoomCard-DYSNNjn9.js","assets/users-CHngSaTd.js","assets/wifi-CtD81jFq.js","assets/shield-check-B51roLOn.js","assets/circle-check-B8lDKDB6.js","assets/arrow-right-PPLnOfPb.js","assets/siteData-BYS6-c-N.js","assets/useSeo-Bwd8_-Cw.js","assets/indian-rupee-CDF9Ib_W.js","assets/sparkles-CrOjMz5q.js","assets/Rooms-CFfxkGBs.js","assets/roomService-099n4Hq_.js","assets/Booking-DgyXiLqk.js","assets/bookingService-BqAVHETE.js","assets/StatusBadge-CR5ahynk.js","assets/mail-B-sofiwr.js","assets/Gallery-Cyr04-Bi.js","assets/About-Df7STIBv.js","assets/Contact-Btx7P3Tv.js","assets/reviewService-BAy2troC.js","assets/AdminLogin-DvT1TXua.js","assets/AdminDashboard-BdL-Ok4O.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/Home-C59A2lZQ.js","assets/ResponsiveMap-DuB5JpFn.js","assets/RoomCard-5wItpoDj.js","assets/users-D92lYDyc.js","assets/wifi-CuY-HUPG.js","assets/shield-check-xlpBIdH-.js","assets/circle-check-DO9K5fvI.js","assets/arrow-right-GHulhS-z.js","assets/siteData-BYS6-c-N.js","assets/useSeo-DaYmfcYt.js","assets/indian-rupee-XZFz_Ghz.js","assets/sparkles-DnkurTc3.js","assets/Rooms-Bqo9OCNV.js","assets/roomService-BH7ysV2g.js","assets/Booking-RjESz1ER.js","assets/bookingService-bbxFbzhW.js","assets/StatusBadge-4W1BqE0N.js","assets/mail-B0HQlNOP.js","assets/Gallery-CP-zZU-E.js","assets/About-Ti_ST-hD.js","assets/Contact-E2fWaL_U.js","assets/reviewService-_us2OKN8.js","assets/AdminLogin-BDe3FQd0.js","assets/AdminDashboard-C2mw2FT9.js"])))=>i.map(i=>d[i]);
 function _mergeNamespaces(n2, m2) {
   for (var i2 = 0; i2 < m2.length; i2++) {
     const e2 = m2[i2];
@@ -71,7 +71,7 @@ var react_production_min = {};
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-var l$2 = Symbol.for("react.element"), n$3 = Symbol.for("react.portal"), p$3 = Symbol.for("react.fragment"), q$1 = Symbol.for("react.strict_mode"), r = Symbol.for("react.profiler"), t$1 = Symbol.for("react.provider"), u$1 = Symbol.for("react.context"), v$3 = Symbol.for("react.forward_ref"), w$4 = Symbol.for("react.suspense"), x = Symbol.for("react.memo"), y = Symbol.for("react.lazy"), z$1 = Symbol.iterator;
+var l$2 = Symbol.for("react.element"), n$3 = Symbol.for("react.portal"), p$3 = Symbol.for("react.fragment"), q$1 = Symbol.for("react.strict_mode"), r = Symbol.for("react.profiler"), t$1 = Symbol.for("react.provider"), u$1 = Symbol.for("react.context"), v$3 = Symbol.for("react.forward_ref"), w$3 = Symbol.for("react.suspense"), x = Symbol.for("react.memo"), y = Symbol.for("react.lazy"), z$1 = Symbol.iterator;
 function A$1(a2) {
   if (null === a2 || "object" !== typeof a2) return null;
   a2 = z$1 && a2[z$1] || a2["@@iterator"];
@@ -219,7 +219,7 @@ react_production_min.Fragment = p$3;
 react_production_min.Profiler = r;
 react_production_min.PureComponent = G$1;
 react_production_min.StrictMode = q$1;
-react_production_min.Suspense = w$4;
+react_production_min.Suspense = w$3;
 react_production_min.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = W$2;
 react_production_min.act = X$2;
 react_production_min.cloneElement = function(a2, b2, e2) {
@@ -27019,7 +27019,7 @@ var createWebChannelTransport;
   X2.prototype.setWithCredentials = X2.prototype.Ha;
   XhrIo = X2;
 }).apply(typeof commonjsGlobal !== "undefined" ? commonjsGlobal : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {});
-const w$3 = "@firebase/firestore";
+const w$2 = "@firebase/firestore";
 /**
  * @license
  * Copyright 2017 Google LLC
@@ -37846,8 +37846,8 @@ function serverTimestamp() {
     return r2 = Object.assign({
       useFetchStreams: t2
     }, r2), s2._setSettings(r2), s2;
-  }, "PUBLIC").setMultipleInstances(true)), registerVersion(w$3, "4.7.3", e2), // BUILD_TARGET will be replaced by values like esm5, esm2017, cjs5, etc during the compilation
-  registerVersion(w$3, "4.7.3", "esm2017");
+  }, "PUBLIC").setMultipleInstances(true)), registerVersion(w$2, "4.7.3", e2), // BUILD_TARGET will be replaced by values like esm5, esm2017, cjs5, etc during the compilation
+  registerVersion(w$2, "4.7.3", "esm2017");
 }();
 const firebaseConfig = {
   apiKey: "AIzaSyCKGw5JimNXYJSOGhL3969zJKbgkne3AlA",
@@ -37933,7 +37933,7 @@ let h$1 = u.bind({ k: 1 });
 function m(e2, t2, r2, a2) {
   o.p = t2, d = e2, f$1 = r2, g = a2;
 }
-function w$2(e2, t2) {
+function w$1(e2, t2) {
   let r2 = this || {};
   return function() {
     let a2 = arguments;
@@ -38028,7 +38028,7 @@ n.promise = (e2, t2, o2) => {
     i2 ? n.error(i2, { id: s2, ...o2, ...o2 == null ? void 0 : o2.error }) : n.dismiss(s2);
   }), e2;
 };
-var ce = 1e3, w$1 = (e2, t2 = "default") => {
+var ce = 1e3, w = (e2, t2 = "default") => {
   let { toasts: o2, pausedAt: s2 } = V(e2, t2), a2 = reactExports.useRef(/* @__PURE__ */ new Map()).current, i2 = reactExports.useCallback((c2, m2 = ce) => {
     if (a2.has(c2)) return;
     let p2 = setTimeout(() => {
@@ -38095,7 +38095,7 @@ from {
 to {
   transform: scale(1) rotate(90deg);
 	opacity: 1;
-}`, C = w$2("div")`
+}`, C = w$1("div")`
   width: 20px;
   opacity: 0;
   height: 20px;
@@ -38136,7 +38136,7 @@ var Te = h$1`
   to {
     transform: rotate(360deg);
   }
-`, F = w$2("div")`
+`, F = w$1("div")`
   width: 12px;
   height: 12px;
   box-sizing: border-box;
@@ -38168,7 +38168,7 @@ to {
 100% {
   opacity: 1;
   height: 10px;
-}`, L = w$2("div")`
+}`, L = w$1("div")`
   width: 20px;
   opacity: 0;
   height: 20px;
@@ -38196,9 +38196,9 @@ to {
     width: 6px;
   }
 `;
-var be = w$2("div")`
+var be = w$1("div")`
   position: absolute;
-`, Se = w$2("div")`
+`, Se = w$1("div")`
   position: relative;
   display: flex;
   justify-content: center;
@@ -38213,7 +38213,7 @@ from {
 to {
   transform: scale(1);
   opacity: 1;
-}`, Pe = w$2("div")`
+}`, Pe = w$1("div")`
   position: relative;
   transform: scale(0.6);
   opacity: 0.4;
@@ -38230,7 +38230,7 @@ var Re = (e2) => `
 `, Ee = (e2) => `
 0% {transform: translate3d(0,0,-1px) scale(1); opacity:1;}
 100% {transform: translate3d(0,${e2 * -150}%,-1px) scale(.6); opacity:0;}
-`, ve = "0%{opacity:0;} 100%{opacity:1;}", De = "0%{opacity:1;} 100%{opacity:0;}", Oe = w$2("div")`
+`, ve = "0%{opacity:0;} 100%{opacity:1;}", De = "0%{opacity:1;} 100%{opacity:0;}", Oe = w$1("div")`
   display: flex;
   align-items: center;
   background: #fff;
@@ -38242,7 +38242,7 @@ var Re = (e2) => `
   pointer-events: auto;
   padding: 8px 10px;
   border-radius: 8px;
-`, Ie = w$2("div")`
+`, Ie = w$1("div")`
   display: flex;
   justify-content: center;
   margin: 4px 10px;
@@ -38277,7 +38277,7 @@ var we = ({ id: e2, className: t2, style: o2, onHeightUpdate: s2, children: a2 }
     pointer-events: auto;
   }
 `, D = 16, Fe = ({ reverseOrder: e2, position: t2 = "top-center", toastOptions: o2, gutter: s2, children: a2, toasterId: i2, containerStyle: r2, containerClassName: l2 }) => {
-  let { toasts: g2, handlers: T2 } = w$1(o2, i2);
+  let { toasts: g2, handlers: T2 } = w(o2, i2);
   return reactExports.createElement("div", { "data-rht-toaster": i2 || "", style: { position: "fixed", zIndex: 9999, top: D, left: D, right: D, bottom: D, pointerEvents: "none", ...r2 }, className: l2, onMouseEnter: T2.startPause, onMouseLeave: T2.endPause }, g2.map((d2) => {
     let c2 = d2.position || t2, m2 = T2.calculateOffset(d2, { reverseOrder: e2, gutter: s2, defaultPosition: t2 }), p2 = Me(c2, m2);
     return reactExports.createElement(we, { id: d2.id, key: d2.id, onHeightUpdate: T2.updateHeight, className: d2.visible ? Ce : "", style: p2 }, d2.type === "custom" ? h(d2.message, d2) : a2 ? a2(d2) : reactExports.createElement(N, { toast: d2, position: c2 }));
@@ -38837,15 +38837,15 @@ function MainLayout() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollTop, {})
   ] });
 }
-const Home = reactExports.lazy(() => __vitePreload(() => import("./Home-DwrQN7yg.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11]) : void 0));
-const Rooms = reactExports.lazy(() => __vitePreload(() => import("./Rooms-CFfxkGBs.js"), true ? __vite__mapDeps([12,2,3,4,5,6,7,8,9,13]) : void 0));
-const Booking = reactExports.lazy(() => __vitePreload(() => import("./Booking-DgyXiLqk.js"), true ? __vite__mapDeps([14,8,15,13,16,3,6,7,17,5,9]) : void 0));
-const Gallery = reactExports.lazy(() => __vitePreload(() => import("./Gallery-Cyr04-Bi.js"), true ? __vite__mapDeps([18,8,9]) : void 0));
-const About = reactExports.lazy(() => __vitePreload(() => import("./About-Df7STIBv.js"), true ? __vite__mapDeps([19,1,8,9,5,3,11]) : void 0));
-const Contact = reactExports.lazy(() => __vitePreload(() => import("./Contact-Btx7P3Tv.js"), true ? __vite__mapDeps([20,1,9,15,21,17]) : void 0));
-const AdminLogin = reactExports.lazy(() => __vitePreload(() => import("./AdminLogin-DvT1TXua.js"), true ? __vite__mapDeps([22,17]) : void 0));
-const AdminDashboard = reactExports.lazy(() => __vitePreload(() => import("./AdminDashboard-BdL-Ok4O.js"), true ? __vite__mapDeps([23,16,15,21,13,10,3,4,6]) : void 0));
-const NotFound = reactExports.lazy(() => __vitePreload(() => import("./NotFound-CcFcOqXn.js"), true ? [] : void 0));
+const Home = reactExports.lazy(() => __vitePreload(() => import("./Home-C59A2lZQ.js"), true ? __vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11]) : void 0));
+const Rooms = reactExports.lazy(() => __vitePreload(() => import("./Rooms-Bqo9OCNV.js"), true ? __vite__mapDeps([12,2,3,4,5,6,7,8,9,13]) : void 0));
+const Booking = reactExports.lazy(() => __vitePreload(() => import("./Booking-RjESz1ER.js"), true ? __vite__mapDeps([14,8,15,13,16,3,6,7,17,5,9]) : void 0));
+const Gallery = reactExports.lazy(() => __vitePreload(() => import("./Gallery-CP-zZU-E.js"), true ? __vite__mapDeps([18,8,9]) : void 0));
+const About = reactExports.lazy(() => __vitePreload(() => import("./About-Ti_ST-hD.js"), true ? __vite__mapDeps([19,1,8,9,5,3,11]) : void 0));
+const Contact = reactExports.lazy(() => __vitePreload(() => import("./Contact-E2fWaL_U.js"), true ? __vite__mapDeps([20,1,9,15,21,17]) : void 0));
+const AdminLogin = reactExports.lazy(() => __vitePreload(() => import("./AdminLogin-BDe3FQd0.js"), true ? __vite__mapDeps([22,17]) : void 0));
+const AdminDashboard = reactExports.lazy(() => __vitePreload(() => import("./AdminDashboard-C2mw2FT9.js"), true ? __vite__mapDeps([23,16,15,21,13,10,3,4,6]) : void 0));
+const NotFound = reactExports.lazy(() => __vitePreload(() => import("./NotFound-COJkh4h4.js"), true ? [] : void 0));
 function App() {
   const location2 = useLocation();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(reactExports.Suspense, { fallback: /* @__PURE__ */ jsxRuntimeExports.jsx(PageLoader, {}), children: /* @__PURE__ */ jsxRuntimeExports.jsx(AnimatePresence, { mode: "wait", initial: false, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { location: location2, children: [
@@ -38895,7 +38895,6 @@ createRoot(document.getElementById("root")).render(
   /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { basename: "/guesthouse", children: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}) }) })
 );
 registerServiceWorker();
-w;
 export {
   AnimatePresence as A,
   BedDouble as B,

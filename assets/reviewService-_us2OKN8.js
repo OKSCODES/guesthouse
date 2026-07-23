@@ -1,4 +1,4 @@
-import { w as where, i as orderBy, o as onSnapshot, q as query, k as updateDoc, l as doc, d as db, n as deleteDoc, b as collection, s as serverTimestamp } from "./index-DeB-K_98.js";
+import { w as where, i as orderBy, o as onSnapshot, q as query, k as updateDoc, l as doc, d as db, n as deleteDoc, b as collection, s as serverTimestamp } from "./index-DN0yzujq.js";
 const reviewsRef = collection(db, "reviews");
 const mapReview = (snapshotDoc) => ({ id: snapshotDoc.id, ...snapshotDoc.data() });
 const subscribeReviews = ({ approvedOnly = false } = {}, onNext, onError) => {

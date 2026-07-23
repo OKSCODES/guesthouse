@@ -1,4 +1,4 @@
-import { o as onSnapshot, l as doc, q as query, i as orderBy, a as addDoc, k as updateDoc, d as db, n as deleteDoc, b as collection, s as serverTimestamp } from "./index-DeB-K_98.js";
+import { o as onSnapshot, l as doc, q as query, i as orderBy, a as addDoc, k as updateDoc, d as db, n as deleteDoc, b as collection, s as serverTimestamp } from "./index-DN0yzujq.js";
 const bookingsRef = collection(db, "bookings");
 const allowedStatuses = ["pending", "approved", "rejected"];
 const generateBookingId = () => `UG-${Date.now().toString().slice(-6)}-${Math.random().toString(36).slice(2, 5).toUpperCase()}`;
